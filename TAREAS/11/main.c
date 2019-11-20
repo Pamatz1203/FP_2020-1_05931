@@ -8,7 +8,7 @@ double raiz(double num, double toleran, double result){
 	div=num/result;
 	dif=result-div;
 	dif= dif>0? dif:-dif;
-	if(diferencia<=toleran){
+	if(dif<=toleran){
 		return result;
 	}
 // si no
